@@ -1,5 +1,5 @@
 import React from 'react'
-import Counter from './Hooks/UseState'
+import Counter from './Redux/counter'
 import Greetings from './features/Greeting'
 import SayGreet from './features/sayGreet'
 import InputFocus from './Hooks/UseRef'
@@ -11,12 +11,13 @@ const App = () => {
   return (
     <>
     {/* <Counter/> */}
-    <UseEffect />
+    {/* <UseEffect /> */}
     {/* <Greetings/> */}
     {/* <SayGreet /> */}
     {/* <Counter /> */}
     {/* <InputFocus/> */}
     {/* <UseMemoApp /> */}
+    <Counter />
     </>
   )
 }
