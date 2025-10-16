@@ -8,6 +8,7 @@ import UseMemoApp from './Hooks/UseMemo'
 import UseEffect from './Hooks/UseEffect'
 import ProductList from './components/ProductList'
 import Cart from './components/Cart'
+import Parent from './communication/Parent'
 
 const App = () => {
   return (
@@ -20,9 +21,10 @@ const App = () => {
     {/* <InputFocus/> */}
     {/* <UseMemoApp /> */}
     {/* <Counter /> */}
-    <ProductList />
+    {/* <ProductList />
     <hr />
-    <Cart />  
+    <Cart />   */}
+    <Parent />
     </>
   )
 }
