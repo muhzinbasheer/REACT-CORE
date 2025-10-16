@@ -6,6 +6,8 @@ import InputFocus from './Hooks/UseRef'
 import Timer from './Hooks/UseRef'
 import UseMemoApp from './Hooks/UseMemo'
 import UseEffect from './Hooks/UseEffect'
+import ProductList from './components/ProductList'
+import Cart from './components/Cart'
 
 const App = () => {
   return (
@@ -17,7 +19,10 @@ const App = () => {
     {/* <Counter /> */}
     {/* <InputFocus/> */}
     {/* <UseMemoApp /> */}
-    <Counter />
+    {/* <Counter /> */}
+    <ProductList />
+    <hr />
+    <Cart />  
     </>
   )
 }
