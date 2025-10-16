@@ -10,6 +10,7 @@ import ProductList from './components/ProductList'
 import Cart from './components/Cart'
 import Parent from './communication/Parent'
 import Resize from './components/Resize'
+import StopWatch from './features/StopWatch'
 
 const App = () => {
   return (
@@ -26,7 +27,8 @@ const App = () => {
     <hr />
     <Cart />   */}
     {/* <Parent /> */}
-    <Resize />
+    {/* <Resize /> */}
+    <StopWatch />
     </>
   )
 }
