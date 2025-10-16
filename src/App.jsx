@@ -9,6 +9,7 @@ import UseEffect from './Hooks/UseEffect'
 import ProductList from './components/ProductList'
 import Cart from './components/Cart'
 import Parent from './communication/Parent'
+import Resize from './components/Resize'
 
 const App = () => {
   return (
@@ -24,7 +25,8 @@ const App = () => {
     {/* <ProductList />
     <hr />
     <Cart />   */}
-    <Parent />
+    {/* <Parent /> */}
+    <Resize />
     </>
   )
 }
